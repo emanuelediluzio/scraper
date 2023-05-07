@@ -1,6 +1,6 @@
 # AliExpress Scraper
 
-Questo progetto è un web scraper che recupera informazioni sui prodotti da AliExpress utilizzando la libreria aliexpress-product-scraper. I dati vengono estratti da una pagina specifica e salvati in un file CSV.
+Questo progetto è un web scraper che recupera informazioni sui prodotti da AliExpress utilizzando la libreria aliexpress-product-scraper. I dati vengono estratti da una pagina specifica e salvati in un file JSON.
 
 ## Requisiti
 
@@ -25,17 +25,15 @@ Assicurati di avere installato Node.js sul tuo sistema. Puoi scaricarlo e instal
   node index.js
 
 
-Il programma recupera i dati dal sito AliExpress e li salva in un file CSV chiamato `output.csv`.
+Il programma recupera i dati dal sito AliExpress e li salva in un file JSON chiamato `output.json`.
 
-3. Controlla la directory del progetto per trovare il file CSV generato.
+3. Controlla la directory del progetto per trovare il file JSON generato.
 
 ## Configurazione personalizzata
 
 Puoi personalizzare il web scraper per adattarlo alle tue esigenze. Ecco alcune opzioni di configurazione che puoi considerare:
 
-- Modifica l'URL del prodotto da cui recuperare i dati nella funzione `scrape`.
-- Aggiungi o rimuovi campi nell'oggetto `data` per salvare le informazioni desiderate nel file CSV.
-- Modifica il nome del file di output nel `path` dell'oggetto `csvWriter`.
+- Modifica il codice del prodotto da cui recuperare i dati nella funzione `scrape`.
 
 Assicurati di seguire le linee guida di AliExpress per l'utilizzo del web scraper e rispettare i termini di servizio del sito.
 
